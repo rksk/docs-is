@@ -2588,14 +2588,6 @@ components:
           description: Authorized redirect URIs
           example:
             - 'https://app.example.com/callback1'
-            - 'https://app.example.com/callback2'
-          items:
-            type: string
-        allowedOrigins:
-          type: array
-          description: Authorized JavaScript origins
-          example:
-            - 'https://app.example.com/js'
           items:
             type: string
         publicClient:
