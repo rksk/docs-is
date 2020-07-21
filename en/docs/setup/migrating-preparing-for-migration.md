@@ -20,7 +20,7 @@ current Identity Server and run the below scripts against the database that is u
 
 !!! note "NOTE"
     Alternatively, it is possible to turn on registry versioning in IS 5.10.0 and continue. But this is
-    highly **NOTE RECOMMENDED** and these configurations should only be changed once.
+    highly **NOT RECOMMENDED** and these configurations should only be changed once.
 
 !!! info "Turning off registry versioning in your current IS and running the scripts"
     Open the `registry.xml` file in the `<OLD_IS_HOME>/repository/conf` directory.
